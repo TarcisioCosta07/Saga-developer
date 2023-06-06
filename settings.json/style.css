@@ -30,6 +30,9 @@ body *{
 
 .container { display: flex;
 justify-content: center;
+max-height: 620px;
+width: 100%;
+
 }
 .card{
     width: 400px;
