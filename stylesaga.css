@@ -5,7 +5,7 @@ body {
     height: 100vh;  
 }
 body *{
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Bungee Shade', cursive;
     color:var(--text-color);
     
 }
@@ -34,31 +34,33 @@ body *{
 justify-content: center;
 max-height: 620px;
 width: 100%;
+background-size: cover;
 
 }
 .card{
     width: 400px;
-    height: 620px;
+    height: 700px;
     border-radius: 15px;
     background-color:var(--bg-card);
     margin-top: center ;
     background:var(--bg-card-opacy);
     box-shadow: rgba(139, 127, 127, 0.24) 0px 3px 8px;
+    background-size: cover;
     
 }
 .text-main{ text-align: center;
 color: var(--text-color);
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-family: 'Mirza', cursive;
 font-weight: 300;
 font-size: larger;
 }
 
 .btn{ text-align: center;
     color:black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Bungee Shade', cursive;
     padding: 10px 30px;
     font-size: larger;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 15px;
     border: none;
     transition: 1s;
@@ -71,7 +73,7 @@ font-size: larger;
 }
 .desc{text-align: end;
     color: var(--text-color);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Bakbak One', cursive;
     text-align: center;
     font-size: medium;
     font-weight: 200;
